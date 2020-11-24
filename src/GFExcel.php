@@ -42,7 +42,7 @@ class GFExcel
      * @since 1.0.0
      * @var string
      */
-    public static $slug = 'gf-entries-in-excel';
+    public static $slug = 'gf-entries-in-excel-aw';
 
     public const KEY_HASH = 'gfexcel_hash';
 

@@ -43,84 +43,84 @@ abstract class BaseValue
      * @since 1.3.0
      * @var mixed
      */
-    protected $value = '';
+    public $value = '';
 
     /**
      * The gravity forms field for this value.
      * @since 1.3.0
      * @var \GF_Field
      */
-    protected $gf_field;
+    public $gf_field;
 
     /**
      * Whether this is a numeric value.
      * @since 1.3.0
      * @var bool
      */
-    protected $is_numeric = false;
+    public $is_numeric = false;
 
     /**
      * The text color of the cell.
      * @since 1.4.1
      * @var string
      */
-    protected $color = '';
+    public $color = '';
 
     /**
      * The background color of the cell.
      * @since 1.4.1
      * @var string
      */
-    protected $background_color = '';
+    public $background_color = '';
 
     /**
      * Whether the value is bold.
      * @since 1.4.0
      * @var bool
      */
-    protected $is_bold = false;
+    public $is_bold = false;
 
     /**
      * Whether the value is italic.
      * @since 1.4.0
      * @var bool
      */
-    protected $is_italic = false;
+    public $is_italic = false;
 
     /**
      * Whether the value is a boolean value.
      * @since 1.3.0
      * @var bool
      */
-    protected $is_bool = false;
+    public $is_bool = false;
 
     /**
      * The url of the cell..
      * @since 1.4.0
      * @var string
      */
-    protected $url;
+    public $url;
 
     /**
      * The specific font size for this value.
      * @since 1.8.0
      * @var null|float
      */
-    protected $font_size;
+    public $font_size;
 
     /**
      * The color of the border of the cell.
      * @since 1.8.0
      * @var string
      */
-    protected $border_color = '';
+    public $border_color = '';
 
     /**
      * The position of the border.
      * @since 1.8.0
      * @var string
      */
-    protected $border_position = '';
+    public $border_position = '';
 
     /**
      * Creates a BaseValue instance.

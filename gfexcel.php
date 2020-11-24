@@ -7,7 +7,7 @@
  * Author URI:      https://paypal.me/doekenorg
  * License:         GPL2
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:     gf-entries-in-excel
+ * Text Domain:     gf-entries-in-excel-aw
  * Domain Path:     /languages
  * Version:         1.8.7
  *
@@ -37,7 +37,7 @@ add_action('gform_loaded', static function () {
         require_once($autoload);
     }
 
-    load_plugin_textdomain('gf-entries-in-excel', false, basename(__DIR__) . '/languages');
+    load_plugin_textdomain('gf-entries-in-excel-aw', false, basename(__DIR__) . '/languages');
 
     if (!method_exists('GFForms', 'include_addon_framework')) {
         return false;

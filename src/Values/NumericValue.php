@@ -25,13 +25,13 @@ class NumericValue extends BaseValue
      * @since 1.8.0
      * @var string
      */
-    protected $format = self::FORMAT_DEFAULT;
+    public $format = self::FORMAT_DEFAULT;
 
     /**
      * @inheritdoc
      * @since 1.3.0
      */
-    protected $is_numeric = true;
+    public $is_numeric = true;
 
     /**
      * @inheritdoc

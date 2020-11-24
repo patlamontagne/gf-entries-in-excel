@@ -12,7 +12,7 @@ class CurrencyValue extends NumericValue
      * @inheritdoc
      * @since 1.8.1
      */
-    protected $format = NumericValue::FORMAT_CURRENCY_NONE;
+    public $format = NumericValue::FORMAT_CURRENCY_NONE;
 
     /**
      * Currency formatting with symbol first.
@@ -31,7 +31,7 @@ class CurrencyValue extends NumericValue
      * @since 1.8.0
      * @var string
      */
-    protected $symbol = '$';
+    public $symbol = '$';
 
     /**
      * Returns the currency symbol.

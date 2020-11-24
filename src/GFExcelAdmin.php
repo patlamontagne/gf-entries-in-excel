@@ -49,7 +49,7 @@ class GFExcelAdmin extends \GFAddOn
     /**
      * {@inheritdoc}
      */
-    protected $_path = 'gf-entries-in-excel/gfexcel.php';
+    protected $_path = 'gf-entries-in-excel-aw/gfexcel.php';
 
     /**
      * @inheritdoc

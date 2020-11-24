@@ -12,7 +12,7 @@ class BoolValue extends BaseValue
      * @inheritdoc
      * @since 1.3.0
      */
-    protected $is_bool = true;
+    public $is_bool = true;
 
     /**
      * @inheritdoc
