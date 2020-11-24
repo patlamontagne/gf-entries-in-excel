@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:     Gravity Forms Entries in Excel
+ * Plugin Name:     Gravity Forms Entries in Excel (AW)
  * Plugin URI:      https://gfexcel.com
  * Description:     Export all Gravity Forms entries to Excel (.xlsx) via a secret (shareable) url.
  * Author:          Doeke Norg
@@ -9,9 +9,9 @@
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:     gf-entries-in-excel-aw
  * Domain Path:     /languages
- * Version:         1.8.7
+ * Version:         1.8.7-aw
  *
- * @package         GFExcel
+ * @package         GFExcel-aw
  */
 
 
